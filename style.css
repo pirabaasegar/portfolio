@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    line-height: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1280px;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landingText1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color: #57534e;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.landingText2 {
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: bolder;
+    text-align: center;
+    max-width: 1280px;
+    margin-bottom: 1rem;
+}
+
+.landingText3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #5c534e;
+    text-align: center;
+    max-width: 768px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.landingBtn {
+    color: #fff;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #000;
+    cursor: pointer;
+    text-decoration: inherit;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0/0.1), 0 2px 4px -2px rgb(0 0 0/0.1);
+}
+
+.projects {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f3f4f6;
+}
+
+.heading {
+    padding-bottom: 3rem;
+}
+
+.title {
+    font-size: 3rem;
+    line-height: 1;
+    color: #292524;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.subText {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #5c534e;
+    text-align: center;
+    font-weight: 500;
+}
+
+.about {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #fff;
+}
+
+footer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #374151;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 66.666667%;
+    margin: auto;
+}
+
+footer p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+}
+
+.footerContent .fa {
+    font-size: 2.25rem;
+    line-height: 1.75rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 550;
+}
+
+.landing .fa {
+    font-size: 6rem;
+    line-height: 1.75rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 4rem;
+}
+
+.projectsContent {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    max-width: 72rem;
+    display: grid;
+    margin: auto;
+}
+
+.item {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: #fff;
+    border-radius: 0.935rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemImage {
+    object-fit: cover;
+    border-top-left-radius: 0.935rem;
+    border-top-right-radius: 0.935rem;
+    height: 12rem;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.itemInfo {
+    padding-bottom: 1.25rem;
+    padding-top: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.itemTitle {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.itemSubText {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #5c534e;
+    font-weight: 500;
+}
+
+.aboutContent {
+    row-gap: 1rem;
+    flex-direction: column;
+    width: 30%;
+    display: flex;
+    margin: auto;
+    color: rgb(87, 83, 78);
+    line-height: 1.75rem;
+}
+
+.aboutItems {
+    color: rgb(87, 83, 78);
+    display: flex;
+}
+
+.itemsCol {
+    flex-direction: column;
+    display: flex;
+}
+
+.space-y-2 {
+    margin-left: 2rem;
+}
+
+.itemsCol div {
+    margin-top: 0.5rem;
+}
+
+.itemsCol span {
+    margin-left: 0.5rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 1000ms;
+}
