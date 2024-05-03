@@ -19,7 +19,7 @@ function App() {
                 </div>
                 <div className="container">
                     <div className="row gap-4">
-                        <div className="col blog-card">
+                        <div className="col-lg col-auto blog-card">
                             <div className="row">
                                 <img
                                     src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*AH4vsnt-4yrQaLWoZsHgXw.png"
@@ -43,8 +43,8 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col blog-card shadow-none" />
-                        <div className="col blog-card shadow-none" />
+                        <div className="col-lg col-auto blog-card shadow-none" />
+                        <div className="col-lg col-auto blog-card shadow-none" />
                     </div>
                 </div>
             </section>
