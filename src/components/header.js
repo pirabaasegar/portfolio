@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
     const location = useLocation();
+    const [isMobileNavVisible, setIsMobileNavVisible] = useState(false);
+
+    useEffect(() => {
+        const handleNavToggle = () => {
+            setIsMobileNavVisible(!isMobileNavVisible);
+        };
+
+        const navToggle = document.querySelector(".mobile-nav-toggle");
+
+        if (navToggle) {
+            navToggle.addEventListener("click", handleNavToggle);
+
+            return () => {
+                navToggle.removeEventListener("click", handleNavToggle);
+            };
+        }
+    }, [isMobileNavVisible]);
 
     return (
         <header className="header" id="header">
@@ -28,9 +45,9 @@ const Header = () => {
                             </Link>
                         </li>
                     </ul>
-                    <i className="bi bi-list mobile-nav-toggle" />
+                    <i className={`bi mobile-nav-toggle ${isMobileNavVisible ? 'bi-x' : 'bi-list'}`} />
                 </nav>
-                <nav id="mobile-nav" className="mobile-nav">
+                <nav id="mobile-nav" className={`mobile-nav ${isMobileNavVisible ? 'mobile-nav-show' : ''}`}>
                     <ul>
                         <li>
                             <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
