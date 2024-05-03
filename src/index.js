@@ -12,6 +12,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import AOS from 'aos';
 
+window.addEventListener("load", () => {
+    AOS.init({
+        duration: 1000,
+        easing: "ease-in-out",
+        once: true,
+        mirror: false
+    });
+});
+
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
@@ -22,5 +31,3 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
-
-AOS.init();
