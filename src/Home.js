@@ -25,22 +25,22 @@ function App() {
   return (
     <>
       <Header />
-      <div className="hero">
-        <div className="hero-text" data-aos="fade-up">
-          <h1>{displayText}</h1>
-          <p>
+      <div className="hero position-relative">
+        <div className="hero-text text-center align-content-center" data-aos="fade-up">
+          <h1 className='fw-bolder display-1 text-center m-auto'>{displayText}</h1>
+          <p className='my-0 mx-auto'>
             Currently helping small businesses and creators make the most of their
             customers and audiences, by providing them with great user experiences.
           </p>
-          <a href="work">View my Work</a>
+          <a href="work" className='border-0 text-white'>View my Work</a>
         </div>
       </div>
-      <section id="about" className="about section-bg" data-aos="fade-up">
+      <section id="about" className="about section-bg text-white overflow-hidden" data-aos="fade-up">
         <div className="container">
           <div className="row justify-content-center gap-lg-5 gap-4">
-            <div className="col-lg-5 col-md-6 section-title">
-              <h2 className="text-start">A little about me</h2>
-              <p className="text-start mb-0">
+            <div className="col-lg-5 col-md-6 section-title text-center pb-0">
+              <h2 className="text-start fw-bold position-relative fw-medium text-white">A little about me</h2>
+              <p className="text-start mb-0 text-white">
                 I'm a freelance developer and designer with a passion for creating
                 great user experiences. I've been coding since I was 10, and in the
                 last 4 years I've learnt a variety of technologies that enable me to
@@ -89,9 +89,9 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="work" className="work">
-        <div className="section-title pb-0" data-aos="fade-up">
-          <h2>My work and projects</h2>
+      <section id="work" className="work overflow-hidden">
+        <div className="section-title text-center pb-0" data-aos="fade-up">
+          <h2 className='fw-bold position-relative'>My work and projects</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -100,10 +100,10 @@ function App() {
           </p>
         </div>
         <div className="container">
-          <div className="row justify-content-center gap-4 project-card">
+          <div className="row justify-content-center gap-4 project-card mt-0">
             <div className="col-lg-5 col-md-6 d-flex justify-content-center">
               <div
-                className="project-image"
+                className="project-image w-100 h-100 position-relative z-1"
                 style={{
                   backgroundImage:
                     "url(https://images.prismic.io/pirabaa/ZjJ1GkMTzAJOCeId_portfolio.png?auto=format,compress)"
@@ -111,8 +111,8 @@ function App() {
               ></div>
             </div>
             <div className="col-lg-5 col-md-6">
-              <h3>Featured Project</h3>
-              <h3>pirabaa.ca</h3>
+              <h3 className='m-0 fw-bold fw-bold text-uppercase m-0'>Featured Project</h3>
+              <h3 className='m-0 mb-3 fw-bold'>pirabaa.ca</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
                 mauris a nunc blandit dictum. Nullam eu velit ac turpis consectetur
@@ -120,12 +120,12 @@ function App() {
                 erat volutpat. Phasellus a nisi vel justo ultrices scelerisque eget
                 sed justo. Donec id sollicitudin sapien.
               </p>
-              <div className="d-flex flex-wrap gap-2 tools">
-                <p>JavaScript</p>
-                <p>Bootstrap</p>
-                <p>Figma</p>
-                <p>Prismic</p>
-                <p>Github</p>
+              <div className="d-flex flex-wrap gap-2 tools font-monospace">
+                <p className='mb-0'>JavaScript</p>
+                <p className='mb-0'>Bootstrap</p>
+                <p className='mb-0'>Figma</p>
+                <p className='mb-0'>Prismic</p>
+                <p className='mb-0'>Github</p>
               </div>
               <div className="mt-3">
                 <a href="#">
@@ -140,7 +140,7 @@ function App() {
           <div className="row justify-content-center gap-4 project-card">
             <div className="col-lg-5 col-md-6 d-flex justify-content-center">
               <div
-                className="project-image"
+                className="project-image w-100 h-100 position-relative z-1"
                 style={{
                   backgroundImage:
                     "url(https://images.prismic.io/pirabaa/ZjJ1GUMTzAJOCeIc_mooshot.png?auto=format,compress)"
@@ -148,8 +148,8 @@ function App() {
               ></div>
             </div>
             <div className="col-lg-5 col-md-6">
-              <h3>Featured Project</h3>
-              <h3>Moonshot</h3>
+              <h3 className='m-0 fw-bold fw-bold text-uppercase m-0'>Featured Project</h3>
+              <h3 className='m-0 mb-3 fw-bold'>Moonshot</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
                 mauris a nunc blandit dictum. Nullam eu velit ac turpis consectetur
@@ -157,11 +157,11 @@ function App() {
                 erat volutpat. Phasellus a nisi vel justo ultrices scelerisque eget
                 sed justo. Donec id sollicitudin sapien.
               </p>
-              <div className="d-flex flex-wrap gap-2 tools">
-                <p>JavaScript</p>
-                <p>Bootstrap</p>
-                <p>Figma</p>
-                <p>Github</p>
+              <div className="d-flex flex-wrap gap-2 tools font-monospace">
+                <p className='mb-0'>JavaScript</p>
+                <p className='mb-0'>Bootstrap</p>
+                <p className='mb-0'>Figma</p>
+                <p className='mb-0'>Github</p>
               </div>
               <div className="mt-3">
                 <a href="#">
@@ -176,7 +176,7 @@ function App() {
           <div className="row justify-content-center gap-4 project-card">
             <div className="col-lg-5 col-md-6 d-flex justify-content-center">
               <div
-                className="project-image"
+                className="project-image w-100 h-100 position-relative z-1"
                 style={{
                   backgroundImage:
                     "url(https://images.prismic.io/pirabaa/ZjJ1GEMTzAJOCeIb_cinemax.png?auto=format,compress)"
@@ -184,8 +184,8 @@ function App() {
               ></div>
             </div>
             <div className="col-lg-5 col-md-6">
-              <h3>Featured Project</h3>
-              <h3>Cinemax</h3>
+              <h3 className='m-0 fw-bold fw-bold text-uppercase m-0'>Featured Project</h3>
+              <h3 className='m-0 mb-3 fw-bold'>Cinemax</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
                 mauris a nunc blandit dictum. Nullam eu velit ac turpis consectetur
@@ -193,12 +193,12 @@ function App() {
                 erat volutpat. Phasellus a nisi vel justo ultrices scelerisque eget
                 sed justo. Donec id sollicitudin sapien.
               </p>
-              <div className="d-flex flex-wrap gap-2 tools">
-                <p>VS Code</p>
-                <p>Bootstrap</p>
-                <p>Figma</p>
-                <p>Github</p>
-                <p>TMDB API</p>
+              <div className="d-flex flex-wrap gap-2 tools font-monospace">
+                <p className='mb-0'>VS Code</p>
+                <p className='mb-0'>Bootstrap</p>
+                <p className='mb-0'>Figma</p>
+                <p className='mb-0'>Github</p>
+                <p className='mb-0'>TMDB API</p>
               </div>
               <div className="mt-3">
                 <a href="http://cinemax.pirabaa.ca/">
@@ -212,9 +212,9 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="subscription" className="subscription">
-        <div className="section-title pb-0" data-aos="fade-up">
-          <h2>Get the Good Stuff.</h2>
+      <section id="subscription" className="subscription overflow-hidden">
+        <div className="section-title text-center pb-0" data-aos="fade-up">
+          <h2 className='fw-bold position-relative'>Get the Good Stuff.</h2>
           <p style={{ margin: "auto auto 25px" }}>
             I'll occasionally send you productivity and personal development tips.
             Sometimes, I might even send you my favourite articles, tweets and books

@@ -7,9 +7,9 @@ function App() {
     return (
         <>
             <Header />
-            <section id="blog" className="blog">
-                <div className="section-title pb-0" data-aos="fade-up">
-                    <h2>Blog</h2>
+            <section id="blog" className="blog overflow-hidden">
+                <div className="section-title text-center pb-0" data-aos="fade-up">
+                    <h2 className='fw-bold position-relative'>Blog</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -23,7 +23,7 @@ function App() {
                             <div className="row">
                                 <img
                                     src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*AH4vsnt-4yrQaLWoZsHgXw.png"
-                                    alt="Blog"
+                                    alt="Blog" className='p-0'
                                 />
                                 <div className="blog-content">
                                     <span>
@@ -35,7 +35,7 @@ function App() {
                                             Discovery with AI
                                         </h2>
                                     </a>
-                                    <p>
+                                    <p className='mb-0'>
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
                                         voluptas itaque asperiores, autem officia quas quis impedit
                                         voluptatibus cumque fugit ducimus.
