@@ -103,7 +103,7 @@ function App() {
           <div className="row justify-content-center gap-4 project-card mt-0">
             <div className="col-lg-5 col-md-6 d-flex justify-content-center">
               <div
-                className="project-image w-100 h-100 position-r"
+                className="project-image w-100 h-100 position-relative z-1"
                 style={{
                   backgroundImage:
                     "url(https://images.prismic.io/pirabaa/ZjJ1GkMTzAJOCeId_portfolio.png?auto=format,compress)"
@@ -140,7 +140,7 @@ function App() {
           <div className="row justify-content-center gap-4 project-card">
             <div className="col-lg-5 col-md-6 d-flex justify-content-center">
               <div
-                className="project-image"
+                className="project-image w-100 h-100 position-relative z-1"
                 style={{
                   backgroundImage:
                     "url(https://images.prismic.io/pirabaa/ZjJ1GUMTzAJOCeIc_mooshot.png?auto=format,compress)"
@@ -176,7 +176,7 @@ function App() {
           <div className="row justify-content-center gap-4 project-card">
             <div className="col-lg-5 col-md-6 d-flex justify-content-center">
               <div
-                className="project-image"
+                className="project-image w-100 h-100 position-relative z-1"
                 style={{
                   backgroundImage:
                     "url(https://images.prismic.io/pirabaa/ZjJ1GEMTzAJOCeIb_cinemax.png?auto=format,compress)"
