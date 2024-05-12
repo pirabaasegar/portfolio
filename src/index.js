@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Work from './Work';
 import Blog from './Blog';
+import Error from './Error';
 
 import './index.css';
 
@@ -27,6 +28,7 @@ ReactDOM.render(
       <Route path="/" element={<Home />} />
       <Route path="work" element={<Work />} />
       <Route path="blog" element={<Blog />} />
+      <Route path="*" element={<Error />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
