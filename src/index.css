@@ -283,7 +283,7 @@ section {
   }
 
   .navbar ul {
-    display: none
+    display: none !important;
   }
 
   .hero-text p {
