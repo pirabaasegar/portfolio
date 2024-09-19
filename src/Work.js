@@ -11,7 +11,7 @@ function App() {
     return (
         <>
             <Header />
-            <section id="work" className="work overflow-hidden">
+            <section id="work" className="work overflow-hidden mb-5">
                 <div className="section-title text-center pb-0" data-aos="fade-up">
                     <h2 className='fw-bold position-relative'>My work and projects</h2>
                     <p>
