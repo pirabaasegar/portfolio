@@ -103,7 +103,7 @@ function App() {
         </div>
         <div className="container">
           <div className="row justify-content-center gap-4 project-card mt-0">
-            <div className="col-lg-5 col-md-6 d-flex justify-content-center">
+            <div className="col-lg-4 col-md-5 d-flex justify-content-center">
               <div
                 className="project-image w-100 h-100 position-relative z-1"
                 style={{
@@ -140,7 +140,7 @@ function App() {
             </div>
           </div>
           <div className="row justify-content-center gap-4 project-card">
-            <div className="col-lg-5 col-md-6 d-flex justify-content-center">
+            <div className="col-lg-4 col-md-5 d-flex justify-content-center">
               <div
                 className="project-image w-100 h-100 position-relative z-1"
                 style={{
@@ -176,7 +176,7 @@ function App() {
             </div>
           </div>
           <div className="row justify-content-center gap-4 project-card">
-            <div className="col-lg-5 col-md-6 d-flex justify-content-center">
+            <div className="col-lg-4 col-md-5 d-flex justify-content-center">
               <div
                 className="project-image w-100 h-100 position-relative z-1"
                 style={{
