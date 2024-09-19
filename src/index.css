@@ -206,7 +206,7 @@ section {
 
 .project-image {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-image: url(https://via.placeholder.com/356x236);
   grid-area: 1/1/-1/8
 }
