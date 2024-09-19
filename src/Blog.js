@@ -61,7 +61,7 @@ function App() {
                                         </h2>
                                     </a>
                                     <p className='mb-0 text-secondary'>
-                                        The human body is a marvel of complexity, a masterpiece of evolution, and a source of endless wonder. For centuries, scientists, researchers...
+                                        What began as a modern web development project evolved into a translator app that showcases the combination of linguistic powers and digital...
                                     </p>
                                 </div>
                             </div>
