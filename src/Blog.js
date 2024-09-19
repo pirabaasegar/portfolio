@@ -40,9 +40,7 @@ function App() {
                                         </h2>
                                     </a>
                                     <p className='mb-0'>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-                                        voluptas itaque asperiores, autem officia quas quis impedit
-                                        voluptatibus cumque fugit ducimus.
+                                        The human body is a marvel of complexity, a masterpiece of evolution, and a source of endless wonder. For centuries, scientists, researchers...
                                     </p>
                                 </div>
                             </div>
