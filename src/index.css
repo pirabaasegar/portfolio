@@ -254,8 +254,8 @@ section {
 }
 
 .work {
-  padding: 120px 0;
   padding-top: 30px;
+  padding-bottom: 90px;
 }
 
 @media only screen and (max-width:768px) {
