@@ -249,7 +249,8 @@ section {
 }
 
 .blog {
-  padding-top: 30px
+  padding-top: 30px;
+  padding-bottom: 90px;
 }
 
 .work {
