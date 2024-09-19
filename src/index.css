@@ -229,7 +229,9 @@ section {
 
 .blog-card img {
   border-top-left-radius: 18px;
-  border-top-right-radius: 18px
+  border-top-right-radius: 18px;
+  height: 223px;
+  object-fit: cover;
 }
 
 .blog-content h2 {
