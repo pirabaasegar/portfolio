@@ -28,7 +28,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className='mb-0'>
-                <a href="https://twitter.com/pirabaasegar">
+                <a href="https://medium.com/@pirabaasegar">
                   <i className="bi bi-medium" />
                 </a>
               </li>
