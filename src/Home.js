@@ -8,7 +8,7 @@ import Footer from './components/footer';
 function App() {
   const [displayText, setDisplayText] = useState('');
   const text1 = "Hi i'm Pirabaa Segar.";
-  const text2 = "I'm a frontend developer and innovator.";
+  const text2 = "I'm a frontend developer and student.";
 
   useEffect(() => {
     textTypingEffect(text1);
