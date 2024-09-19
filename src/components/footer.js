@@ -18,11 +18,6 @@ const Footer = () => {
           <div className="col-auto">
             <ul className='list-unstyled p-0 d-flex gap-4 mb-0 justify-content-end'>
               <li className='mb-0'>
-                <a href="https://twitter.com/pirabaasegar">
-                  <i className="bi bi-twitter-x" />
-                </a>
-              </li>
-              <li className='mb-0'>
                 <a href="https://www.linkedin.com/in/pirabaasegar/">
                   <i className="bi bi-linkedin" />
                 </a>
@@ -30,6 +25,11 @@ const Footer = () => {
               <li className='mb-0'>
                 <a href="https://github.com/pirabaasegar/">
                   <i className="bi bi-github" />
+                </a>
+              </li>
+              <li className='mb-0'>
+                <a href="https://twitter.com/pirabaasegar">
+                  <i className="bi bi-medium" />
                 </a>
               </li>
               {/*<li className='mb-0'><a href="https://tks.life/profile/pirabaa.segar/"><img src="https://images.prismic.io/pirabaa/ZjL7okMTzAJOCexU_TKS.png?auto=format,compress" width="33px" alt="TKS"></a></li>*/}
