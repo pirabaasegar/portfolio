@@ -145,42 +145,6 @@ function App() {
                 className="project-image w-100 h-100 position-relative z-1"
                 style={{
                   backgroundImage:
-                    "url(https://images.prismic.io/pirabaa/Zj_740FLKBtrWy5y_Malarify.png?auto=format,compress)"
-                }}
-              ></div>
-            </div>
-            <div className="col-lg-5 col-md-6">
-              <h3 className='m-0 fw-bold fw-bold text-uppercase m-0'>Featured Project</h3>
-              <h3 className='m-0 mb-3 fw-bold'>Malarify</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
-                mauris a nunc blandit dictum. Nullam eu velit ac turpis consectetur
-                cursus. Quisque vitae nisi ac libero suscipit consequat. Aliquam
-                erat volutpat. Phasellus a nisi vel justo ultrices scelerisque eget
-                sed justo. Donec id sollicitudin sapien.
-              </p>
-              <div className="d-flex flex-wrap gap-2 tools font-monospace">
-                <p className='mb-0'>React</p>
-                <p className='mb-0'>React Router</p>
-                <p className='mb-0'>Bootstrap</p>
-                <p className='mb-0'>Vercel</p>
-              </div>
-              <div className="mt-3">
-                <a href="https://malarify.vercel.app/">
-                  <i className="bi bi-box-arrow-up-right" />
-                </a>
-                <a href="#">
-                  <i className="bi bi-github" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center gap-4 project-card">
-            <div className="col-lg-4 col-md-5 d-flex justify-content-center">
-              <div
-                className="project-image w-100 h-100 position-relative z-1"
-                style={{
-                  backgroundImage:
                     "url(https://images.prismic.io/pirabaa/Zj_9zkFLKBtrWy5z_Cinemax.png?auto=format,compress)"
                 }}
               ></div>
