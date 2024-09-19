@@ -248,12 +248,7 @@ section {
   border-radius: 18px
 }
 
-.blog {
-  padding-top: 30px;
-  padding-bottom: 90px;
-}
-
-.work {
+.blog, .work {
   padding-top: 30px;
   padding-bottom: 90px;
 }
