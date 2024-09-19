@@ -53,7 +53,7 @@ function App() {
                                 />
                                 <div className="blog-content">
                                     <span>
-                                        AI <span>Nov 4, 2023</span>
+                                        AI <span>Feb 12, 2024</span>
                                     </span>
                                     <a href="https://medium.com/@pirabaasegar/revealing-language-barriers-an-exploration-of-translation-with-code-b4806bb80cff">
                                         <h2>
