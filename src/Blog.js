@@ -39,7 +39,7 @@ function App() {
                                             Discovery with AI
                                         </h2>
                                     </a>
-                                    <p className='mb-0'>
+                                    <p className='mb-0 text-secondary'>
                                         The human body is a marvel of complexity, a masterpiece of evolution, and a source of endless wonder. For centuries, scientists, researchers...
                                     </p>
                                 </div>
