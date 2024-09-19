@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-import './globals.css';
-
 import Header from './components/header';
 import Footer from './components/footer';
 
@@ -173,64 +171,6 @@ function App() {
                 </a>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section id="subscription" className="subscription overflow-hidden">
-        <div className="section-title text-center pb-0" data-aos="fade-up">
-          <h2 className='fw-bold position-relative'>Get the Good Stuff.</h2>
-          <p style={{ margin: "auto auto 25px" }}>
-            I'll occasionally send you productivity and personal development tips.
-            Sometimes, I might even send you my favourite articles, tweets and books
-            for that week. No spam ever. I promise.
-          </p>
-        </div>
-        <div className="container" style={{ maxWidth: 1000 }}>
-          <div className="row justify-content-center">
-            <form
-              action="https://app.convertkit.com/forms/6524913/subscriptions"
-              className="seva-form formkit-form"
-              method="post"
-              data-sv-form={6524913}
-              data-uid="9e75fbc54c"
-              data-format="inline"
-              data-version={5}
-              data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&utm_content=form&utm_medium=referral&utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}'
-              min-width="400 500 600 700 800"
-            >
-              <ul
-                className="formkit-alert formkit-alert-error"
-                data-element="errors"
-                data-group="alert"
-              />
-              <div
-                data-element="fields"
-                data-stacked="false"
-                className="seva-fields formkit-fields"
-              >
-                <div className="formkit-field">
-                  <input
-                    className="formkit-input"
-                    name="email_address"
-                    aria-label="Email Address"
-                    placeholder="Email Address"
-                    required=""
-                    type="email"
-                  />
-                </div>
-                <button data-element="submit" className="formkit-submit">
-                  <div className="formkit-spinner">
-                    <div />
-                    <div />
-                    <div />
-                  </div>
-                  <span>Subscribe</span>
-                </button>
-              </div>
-              <div className="formkit-guarantee" data-element="guarantee">
-                We won't send you spam. Unsubscribed at any time.
-              </div>
-            </form>
           </div>
         </div>
       </section>
