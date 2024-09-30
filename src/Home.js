@@ -172,7 +172,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center gap-4 project-card mt-0">
+          <div className="row justify-content-center gap-4 project-card">
             <div className="col-lg-4 col-md-5 d-flex justify-content-center">
               <div
                 className="project-image w-100 h-100 position-relative z-1"
