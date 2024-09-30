@@ -94,6 +94,40 @@ function App() {
                             </div>
                         </div>
                     </div>
+                    <div className="row justify-content-center gap-4 project-card">
+                        <div className="col-lg-4 col-md-5 d-flex justify-content-center">
+                            <div
+                                className="project-image w-100 h-100 position-relative z-1"
+                                style={{
+                                    backgroundImage:
+                                        "url(https://images.prismic.io/pirabaa/Zvn-c7VsGrYSwHR4_smartvizion.png?auto=format,compress)"
+                                }}
+                            ></div>
+                        </div>
+                        <div className="col-lg-5 col-md-6">
+                            <h3 className='m-0 fw-bold fw-bold text-uppercase m-0'>Featured Project</h3>
+                            <h3 className='m-0 mb-3 fw-bold'>Smart Vizion</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+                                mauris a nunc blandit dictum. Nullam eu velit ac turpis consectetur
+                                cursus. Quisque vitae nisi ac libero suscipit consequat. Aliquam
+                                erat volutpat. Phasellus a nisi vel justo ultrices scelerisque eget
+                                sed justo. Donec id sollicitudin sapien.
+                            </p>
+                            <div className="d-flex flex-wrap gap-2 tools font-monospace">
+                                <p className='mb-0'>HTML</p>
+                                <p className='mb-0'>PHP</p>
+                                <p className='mb-0'>JavaScript</p>
+                                <p className='mb-0'>CSS</p>
+                                <p className='mb-0'>Bootstrap</p>
+                            </div>
+                            <div className="mt-3">
+                                <a href="https://smartvizion.ca/" className='m-0'>
+                                    <i className="bi bi-box-arrow-up-right" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <Footer />
