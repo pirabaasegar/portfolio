@@ -106,7 +106,7 @@ function App() {
                 className="project-image w-100 h-100 position-relative z-1"
                 style={{
                   backgroundImage:
-                    "url(https://images.prismic.io/pirabaa/ZjJ1GkMTzAJOCeId_portfolio.png?auto=format,compress)"
+                    "url(https://images.prismic.io/pirabaa/Zvn9LLVsGrYSwHRl_portfolio.png?auto=format,compress)"
                 }}
               ></div>
             </div>
