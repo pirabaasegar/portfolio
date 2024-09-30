@@ -200,7 +200,7 @@ function App() {
                 <p className='mb-0'>Bootstrap</p>
               </div>
               <div className="mt-3">
-                <a href="https://smartvizion.ca/">
+                <a href="https://smartvizion.ca/" className='m-0'>
                   <i className="bi bi-box-arrow-up-right" />
                 </a>
               </div>
