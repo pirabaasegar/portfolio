@@ -193,11 +193,11 @@ function App() {
                 sed justo. Donec id sollicitudin sapien.
               </p>
               <div className="d-flex flex-wrap gap-2 tools font-monospace">
+                <p className='mb-0'>HTML</p>
                 <p className='mb-0'>PHP</p>
-                <p className='mb-0'>Bootstrap</p>
-                <p className='mb-0'>IONOS</p>
                 <p className='mb-0'>JavaScript</p>
-                <p className='mb-0'>FileZilla</p>
+                <p className='mb-0'>CSS</p>
+                <p className='mb-0'>Bootstrap</p>
               </div>
               <div className="mt-3">
                 <a href="https://smartvizion.ca/">
