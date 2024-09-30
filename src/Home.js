@@ -184,7 +184,7 @@ function App() {
             </div>
             <div className="col-lg-5 col-md-6">
               <h3 className='m-0 fw-bold fw-bold text-uppercase m-0'>Featured Project</h3>
-              <h3 className='m-0 mb-3 fw-bold'>smartvizion.ca</h3>
+              <h3 className='m-0 mb-3 fw-bold'>Smart Vizion</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
                 mauris a nunc blandit dictum. Nullam eu velit ac turpis consectetur
