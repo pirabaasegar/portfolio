@@ -12,7 +12,7 @@ function App() {
     textTypingEffect(text1);
     setTimeout(() => textTypingEffect(text2), text1.length * 50 + 1000);
 
-    document.title = "Home - Pirabaa Segar";
+    document.title = "Home — Pirabaa Segar";
   }, []);
 
   function textTypingEffect(text, startIndex = 0, i = startIndex) {

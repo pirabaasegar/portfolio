@@ -5,7 +5,7 @@ import Footer from './components/footer';
 
 function App() {
     useEffect(() => {
-        document.title = "Blog - Pirabaa Segar";
+        document.title = "Blog — Pirabaa Segar";
     }, []);
 
     return (
