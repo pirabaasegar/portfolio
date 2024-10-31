@@ -352,4 +352,7 @@ section {
   .project-card {
     margin-top: 50px !important
   }
+  .project-image {
+    height: 200px !important;
+  }
 }
