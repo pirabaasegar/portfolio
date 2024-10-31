@@ -8,6 +8,7 @@ import Blog from './Blog';
 import Error from './Error';
 
 import './index.css';
+import './responsive.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
