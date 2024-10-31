@@ -25,7 +25,7 @@ function App() {
                     <div className="row justify-content-center gap-4 project-card mt-0">
                         <div className="col-lg-4 col-md-5 d-flex justify-content-center">
                             <div
-                                className="project-image w-100 h-100 position-relative z-1"
+                                className="project-image w-100"
                                 style={{
                                     backgroundImage:
                                         "url(https://images.prismic.io/pirabaa/Zvn9LLVsGrYSwHRl_portfolio.png?auto=format,compress)"
@@ -62,7 +62,7 @@ function App() {
                     <div className="row justify-content-center gap-4 project-card">
                         <div className="col-lg-4 col-md-5 d-flex justify-content-center">
                             <div
-                                className="project-image w-100 h-100 position-relative z-1"
+                                className="project-image w-100"
                                 style={{
                                     backgroundImage:
                                         "url(https://images.prismic.io/pirabaa/Zvn457VsGrYSwHRD_cinemax.png?auto=format,compress)"
@@ -97,7 +97,7 @@ function App() {
                     <div className="row justify-content-center gap-4 project-card">
                         <div className="col-lg-4 col-md-5 d-flex justify-content-center">
                             <div
-                                className="project-image w-100 h-100 position-relative z-1"
+                                className="project-image w-100"
                                 style={{
                                     backgroundImage:
                                         "url(https://images.prismic.io/pirabaa/Zvn-c7VsGrYSwHR4_smartvizion.png?auto=format,compress)"
